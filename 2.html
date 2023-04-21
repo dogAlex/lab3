@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>таблица в HTML</title>
+</head>
+
+<body>
+    <h3 ALIGN=CENTER>ТАБЛИЦА №1</h3>
+    <TABLE ALIGN=CENTER BORDER="5" BGCOLOR=CCC00 CELLPADDING=1 CELLSPACING=1 BORDERCOLOR=GOLD>
+        <caption style="background-color:cccc00">ТАБЛИЦА ИСТИННОСТИ</caption>
+        <THEAD>
+            <TR>
+                <TH><B>A</B></TH>
+                <TH><B>B</B></TH>
+                <TH><B>A and B</B></TH>
+                <TH><B>A or B</B></TH>
+                <TH><B>not A</B></TH>
+                <TH><B>not B</B></TH>
+            </TR>
+        </THEAD>
+        <TBODY>
+            <TR>
+                <TD>0</TD>
+                <TD>0</TD>
+                <TD>0</TD>
+                <TD>0</TD>
+                <TD>1</TD>
+                <TD>1</TD>
+            </TR>
+            <TR>
+                <TD>0</TD>
+                <TD>1</TD>
+                <TD>0</TD>
+                <TD>1</TD>
+                <TD>1</TD>
+                <TD>0</TD>
+            </TR>
+            <TR>
+                <TD>1</TD>
+                <TD>0</TD>
+                <TD>0</TD>
+                <TD>1</TD>
+                <TD>0</TD>
+                <TD>1</TD>
+            </TR>
+            <TR>
+                <TD>1</TD>
+                <TD>1</TD>
+                <TD>1</TD>
+                <TD>1</TD>
+                <TD>0</TD>
+                <TD>0</TD>
+            </TR>
+        </TBODY>
+    </TABLE>
+
+
+    <h3 ALIGN=CENTER> <a name="metka2">ТАБЛИЦА №2</a></h3>
+    <TABLE ALIGN=CENTER BORDER="2" BGCOLOR=CYAN CELLPADDING=1 CELLSPACING=1>
+        <THEAD>
+            <TR>
+                <th colspan="4">
+                    <font face="TAHOMA" size="5" color="darkblue">Густонаселенные города</font>
+                </th>
+            </TR>
+            <tr>
+                <td align="center"><b>Город</b></td>
+                <td align="center"><b>Население </b></td>
+                <td align="center"><b>Страна </b></td>
+                <td align="center"><b>Координаты </b></td>
+            </tr>
+        </THEAD>
+        <TBODY>
+
+            <tr>
+                <td>Буэнос-Айрес</td>
+                <td>12 955 300</td>
+                <td>Аргентина</td>
+                <td>34° 37' ю.ш. 58° 22' з.д.</td>
+            </tr>
+            <tr>
+                <td>Бомбей</td>
+                <td>12 147 100</td>
+                <td rowspan="2">Индия</td>
+                <td>18° 58' с.ш. 72° 49' в.д.</td>
+            </tr>
+            <tr>
+                <td>Дели</td>
+                <td>10 009 200</td>
+                <td>28° 40' с.ш. 77° 13' в.д.</td>
+            </tr>
+            <tr>
+                <td>Сеул</td>
+                <td>11 153 200</td>
+                <td>Корея Южная</td>
+                <td>37° 34' с.ш. 126° 59' в.д.</td>
+            </tr>
+            <tr>
+                <td>Карачи</td>
+                <td>10 272 500</td>
+                <td>Пакистан</td>
+                <td>24° 52' с.ш. 67° 1' в.д.</td>
+            </tr>
+            <tr>
+                <td>Манила</td>
+                <td>10 133 200</td>
+                <td>Филипинны</td>
+                <td>14° 37' с.ш. 120° 58' в.д.</td>
+            </tr>
+            <tr>
+                <td>Сан-Паулу</td>
+                <td>10 057 700</td>
+                <td rowspan="2">Бразилия</td>
+                <td>23° 32' ю.ш. 46° 38' з.д.</td>
+            </tr>
+            <tr>
+                <td>Рио-де-Жанейро</td>
+                <td>6 029 300</td>
+                <td>22° 55' ю.ш. 43° 12' з.д.</td>
+            </tr>
+        </TBODY>
+    </TABLE>
+    <TABLE align=center BORDER="3" BGCOLOR=#C296D2 CELLPADDING=0.5 CELLSPACING=0.5 BORDERCOLOR=#410955 >
+        <caption>ДНЕВНОЕ ОТДЕЛЕНИЕ: 9271(ИСП-21) ГРУППА</caption>
+        <THEAD>
+            <TR>
+                <TH colspan=7>
+                    <font face="TAHOMA" sise=5>РАСПИСАНИЕ ЗАНЯТИЙ</font>
+                </TH>
+            </TR>
+        </THEAD>
+        <THEAD>
+            <TR>
+                <TH><B></B></TH>
+                <TH><B>Понедельник</B></TH>
+                <TH><B>Вторник</B></TH>
+                <TH><B>Среда</B></TH>
+                <TH><B>Четверг</B></TH>
+                <TH><B>Пятница</B></TH>
+                <TH><B>Суббота</B></TH>
+            </TR>
+        </THEAD>
+        <TBODY>
+            <TR>
+                <TD rowspan=2>08:45<BR>10:15</BR></TD>
+                <TD rowspan=2>
+                    <P align=center>лек.<BR>Теория алгоритмов</BR></P>
+                    <P align=center>Шевцова Е. С.</P>
+                    <P align=center>308</P>
+                </TD>
+                <TD rowspan=2>
+                    <P align=center>лек.<BR>Операционные системы и среды</BR></P>
+                    <P align=center>Сотова Е. С.</P>
+                    <P align=center>302</P>
+                </TD>
+                <TD rowspan=2></TD>
+                <TD>
+                    <P align=center>лек. чис.<BR>Разработка программных модулей</BR></P>
+                    <P align=center>Шевцова Е. С.</P>
+                    <P align=center>308</P>
+                </TD>
+                <TD rowspan=2>
+                    <P align=center>лек.<BR>Информационные технологии</BR></P>
+                    <P align=center>Юрина В. В.</P>
+                    <P align=center>413</P>
+                </TD>
+                <TD rowspan=2>
+                    <P align=center>лек.<BR>Архитектура АС</BR></P>
+                    <P align=center>Сотова Е. С.</P>
+                    <P align=center>302</P>
+                </TD>
+            </TR>
+            <TR>
+                <TD>
+                    <P align=center>лек. знам.<BR>Основы проектирования баз данных</BR></P>
+                    <P align=center>Семенов Д. А.</P>
+                    <P align=center>405</P>
+                </TD>
+            </TR>
+            <TR>
+                <TD>10:25<BR>11:55</BR></TD>
+                <TD>
+                    <P align=center>лек.<BR>Основы проектирования баз данных</BR></P>
+                    <P align=center>Семенов Д. А.</P>
+                    <P align=center>405</P>
+                </TD>
+                <TD>
+                    <P align=center>лек.<BR>Основы алгоритмизации и программирования</BR></P>
+                    <P align=center>Будюков А. Ю.</P>
+                    <P align=center>306</P>
+                </TD>
+                <TD>
+                    <P align=center>лек.<BR>Разработка программных модулей</BR></P>
+                    <P align=center>Шевцова Е. С.</P>
+                    <P align=center>308</P>
+                </TD>
+                <TD>
+                    <P align=center>пр.<BR>Иностранный язык</BR></P>
+                    <P align=center>Гладких Н. Ю.</P>
+                    <P align=center>214</P>
+                </TD>
+                <TD>
+                    <P align=center>лек.<BR>Основы философии</BR></P>
+                    <P align=center>Борзова И. Г.</P>
+                    <P align=center>317</P>
+                </TD>
+                <TD>
+                    <P align=center>лек.<BR>Основы алгоритмизации и программирования</BR></P>
+                    <P align=center>Будюков А. Ю.</P>
+                    <P align=center>306</P>
+                </TD>
+            </TR>
+            <TR>
+                <TD>12:25<BR>13:55</BR></TD>
+                <TD>
+                    <P align=center>лек.<BR>Элементы высшей математики</BR></P>
+                    <P align=center>Ковалевская О. Н.</P>
+                    <P align=center>207</P>
+                </TD>
+                <TD></TD>
+                <TD>
+                    <P align=center>лек.<BR>Языки программирования</BR></P>
+                    <P align=center>Есин И. Д.</P>
+                    <P align=center>409</P>
+                </TD>
+                <TD>
+                    <P align=center>лек.<BR>Классный час</BR></P>
+                    <P align=center>Гахраманов С. Г.</P>
+                    <P align=center>310</P>
+                </TD>
+                <TD>
+                    <P align=center>лек.<BR>Дискретная математика с элементами математической логики</BR></P>
+                    <P align=center>Ковалевская О. Н.</P>
+                    <P align=center>207</P>
+                </TD>
+                <TD>
+                    <P align=center>лек.<BR>Системное программирование</BR></P>
+                    <P align=center>Будюков А. Ю.</P>
+                    <P align=center>306</P>
+                </TD>
+            </TR>
+            <TR>
+                <TD rowspan=2>14:05<br>15:35</BR></TD>
+                <TD rowspan=2>
+                    <P align=center>лек.<BR>История</BR></P>
+                    <P align=center>Борзова И. Г.</P>
+                    <P align=center>317</P>
+                </TD>
+                <TD rowspan=2></TD>
+                <TD>
+                    <P align=center>лек. чис.<BR>История</BR></P>
+                    <P align=center>Борзова И. Г.</P>
+                    <P align=center>317</P>
+                </TD>
+                <TD rowspan=2></TD>
+                <TD rowspan=2></TD>
+                <TD rowspan=2>
+                    <P align=center>лек.<BR>Web-дизайн и разработка</BR></P>
+                    <P align=center>Клюстер В. П.</P>
+                    <P align=center>411</P>
+                </TD>
+            </TR>
+            <TR>
+                <TD>
+                    <P align=center>лек. знам.<BR>Физическая культура</BR></P>
+                    <P align=center>Пчелинцева Ю. В.</P>
+                    <P align=center>Спортивный зал</P>
+                </TD>
+            </TR>
+        </TBODY>
+</body>
+
+</html>
